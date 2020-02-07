@@ -13,13 +13,10 @@
 <em>     - emphasis or italic
 <ol>     - ordered list
 <ul>     - unordered list
-
-
-
-
-
  -->
     <p><strong>This is a strong text</strong></p>
+<!--Ordered and Unordered List-->
+
 
     <ol>
         <li>Apple</li>
@@ -32,6 +29,127 @@
       <li>Kindle</li>
       <li>Uber</li>
     </ul>
+
+
+<!--Divs and Spans -->
+<strong><p>Div :</p></strong>
+
+<p> In the div tag we will be dividing the similar elements which we want to group and make it as a class and we can apply the <br>
+  css Effects to the document</p>
+  <br>
+<p><strong>Span :</strong> It is same as the Div tag and we will be doing all changed in Inline mode for specific things.</p>
+
+<!--The both div and span will be applicable in CSS section -->
+
+<!--Attributes-->
+<br>
+<strong><p>Attributes</p></strong>
+
+<p>This includes the adding the link to a webpage or referencing an image to the page</p>
+
+
+
+
+<br>
+<a href="NewPage.html"><img src="Nature.jpeg" alt="Nature Image not found"style="width:240px;height:120px"></a>
+
+
+<h4><strong>Tables</strong>
+<br>
+
+
+<h4>Table</h4>
+
+<table border="1px solid black">
+  <caption><b>Country Growth</b></caption>
+  <thead>
+    <th>Country Name</th>
+    <th colspan="2">Country Flag</th>
+    <th>GDP (Millions of USD)</th>
+
+  </thead>
+  <tr>
+    <td rowspan="2">India</td>
+    <td><img src="Nature.jpeg" alt="Not found"style="width:240px;height:120px"></td>
+    <td>5,00,000</td>
+    <td>Flag</td>
+  </tr>
+
+
+  <tr>
+
+    <td><img src="Nature.jpeg" alt="Not found"style="width:240px;height:120px"></td>
+    <td>15,00,000</td>
+    <td>Falt</td>
+  </tr>
+
+  <tr>
+    <td>Australia</td>
+    <td><img src="Nature.jpeg" alt="Not found"style="width:240px;height:120px"></td>
+    <td>75,00,000</td>
+    <td>Self</td>
+  </tr>
+
+</table>
+
+
+<div class="red">
+
+</div>
+
+<h4>Forms</h4>
+
+<p>Creating the forms in HTML revolves around the input Tag</p>
+
+<form class="" action="NewPage.html" method="get" target="_top">
+
+  <h4>Registration Form</h4>
+  Username <input type="text" name="" value="Enter the username"><br>
+  Password <input type="password" name="" value=""><br>
+  <fieldset>
+<!--Fieldset is used to create a border for group and the legend is used to give the caption for the fieldset-->
+    <legend>Gender</legend>
+    <input type="radio" name="gender" value="Male"checked>Male <br>
+    <input type="radio" name="gender" value="Female">Female <br>
+    <input type="radio" name="gender" value="Others"> Others <br>
+
+
+  </fieldset>
+
+<br>
+  <label>
+    Interests
+    <input type="text" name="" value=""><br>
+  </label>
+<br>
+
+  <label for="skills">Skills : </label>
+    <input id="skills" type="text" name="" placeholder="Enter your Technical Skills" required>
+
+
+
+  </label>
+
+<h4>How was the service</h4>
+
+<select name="stars">
+  <option value="Great">3</option>
+  <option value="Okey">2</option>
+  <option value="Bad">1</option>
+
+
+
+</select>
+
+
+<p>Feedback:</p>
+
+<textarea name="feedback" rows="3" cols="80"></textarea>
+
+  <input type="submit" name="" value="Submit">
+
+
+</form>
 
 <!-- This is comment -->
   </body>
